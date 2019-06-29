@@ -9,7 +9,7 @@ import java.io.InputStreamReader
 class PageTabConverterService {
     fun convert() {
         val json = File(this::class.java.classLoader.getResource("TestData.json").toURI()).inputStream()
-        val output = File("/home/jhoan/EBI/projects/pagetab-converter/src/main/resources/output.tsv")
+        val output = File("/the/output/file/path/output.tsv")
         val reader = JsonReader(InputStreamReader(json, "UTF-8"))
         val gson = GsonBuilder().create()
 
