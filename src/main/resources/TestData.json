@@ -1,0 +1,25 @@
+[{
+  "path": "file1.txt",
+  "attributes": [{
+    "name": "Attr1",
+    "value": "A"
+  }, {
+    "name": "Attr2",
+    "value": "B"
+  }, {
+    "name": "Attr3",
+    "value": "C"
+  }]
+}, {
+  "path": "file2.txt",
+  "attributes": [{
+    "name": "Attr1",
+    "value": "X"
+  }, {
+    "name": "Attr2",
+    "value": "Y"
+  }, {
+    "name": "Attr3",
+    "value": "Z"
+  }]
+}]
